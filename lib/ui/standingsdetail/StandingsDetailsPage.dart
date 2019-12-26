@@ -85,13 +85,7 @@ class _SuccessDetails extends StatelessWidget {
         }
       },
       separatorBuilder: (context, index) {
-        if (index == 0) {
-          return Divider();
-        } else {
-          return Divider(
-            height: 1,
-          );
-        }
+        return Divider();
       },
       itemCount: (details.matchups?.length ?? 0) + 2,
     );
