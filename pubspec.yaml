@@ -30,7 +30,7 @@ dependencies:
   dio: 3.0.7
   dio_cookie_manager: 1.0.0
   cookie_jar: ^1.0.0
-  loading: ^1.0.2
+  loading_animations: ^2.1.0
   equatable: 1.0.1
   flutter_svg: 0.15.0
 

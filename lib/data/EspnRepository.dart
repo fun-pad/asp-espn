@@ -8,8 +8,12 @@ import 'Client.dart';
 const bool isMock = false;
 
 class EspnRepository {
+  static final EspnRepository _singleton = EspnRepository._internal();
+
+  EspnRepository._internal();
+
   static EspnRepository get() {
-    return EspnRepository();
+    return _singleton;
   }
 
   EspnStandingsResult _cachedMatchupResults;
